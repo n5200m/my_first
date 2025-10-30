@@ -102,10 +102,16 @@ body {
 
 /*Main section*/
 
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
 .about{
     background-color: #FFF8F3;
     padding: 130px;
     margin-top: 130px;
+    margin-bottom: 130px;
     text-align: center;
     border-radius: 10px;
 }
@@ -114,7 +120,31 @@ body {
     font-weight: bold;
     color: #181818;
 }
-.setion-description{
+.section-description{
     font-size: 18px;
     color: #757575;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: normal;
+}
+.info-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+/* what i do */
+
+.what-i-do{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
